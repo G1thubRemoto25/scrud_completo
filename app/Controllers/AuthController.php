@@ -15,7 +15,7 @@ class AuthController {
             $_SESSION['user_id'] = $user['id'];
             header('Location: /contactos');
         } else {
-            echo "❌ Credenciales inválidas";
+            echo " Credenciales inválidas";
         }
     }
 
