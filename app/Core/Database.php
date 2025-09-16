@@ -11,8 +11,8 @@ class Database {
             try {
                 self::$instance = new PDO(
                     "mysql:host=localhost;dbname=contactos_db;charset=utf8mb4",
-                    "root", // usuario MySQL
-                    "k934312"      // contraseña MySQL
+                    "root", 
+                    "k934312"
                 );
                 self::$instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             } catch (PDOException $e) {
