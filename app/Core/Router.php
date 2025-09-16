@@ -23,7 +23,7 @@ class Router {
             $obj = new $controller;
             $obj->$action();
         } else {
-            echo "❌ Ruta no encontrada ($method $path)";
+            echo " Ruta no encontrada ($method $path)";
         }
     }
 }
