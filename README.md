@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Proyecto CRUD de Contactos (PHP MVC)
 
 Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar contactos.  
@@ -61,6 +61,7 @@ Ver lista de contactos.
 Editar contactos existentes.
 
 Eliminar contactos con confirmación.
+
 =======
 # Proyecto CRUD de Contactos (PHP MVC)
 
@@ -124,4 +125,3 @@ Ver lista de contactos.
 Editar contactos existentes.
 
 Eliminar contactos con confirmación.
->>>>>>> d004a1e (Corrijo archivos y actualizo configuración (.gitignore))
